@@ -3,9 +3,9 @@
 
 <h2>Create Table</h2>
 <h3>
-<code>CREATE TABLE name (<b>
-colname type constraints,<b>
-colname type constraints<b>
-)</code><b>
+<code>CREATE TABLE name (<br>
+colname type constraints,<br>
+colname type constraints<br>
+)</code><br>
 This will create a new table. For types and constraints look right.  
 </h3>  

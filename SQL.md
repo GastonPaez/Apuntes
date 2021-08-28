@@ -57,22 +57,22 @@ ORDER BY table1.column1 order
 >The ORDER BY is optional, possible ways to order are ASC (ascen­ding) and DESC (desce­nding).
 
 ## Data Types
-```
-NULL null value
-INTEGER Integer value
-REAL 8-byte floating point number
-TEXT Text with UTF encoding
-BLOB Blob-Data (stored like input)
-BOOLEAN Will be stored as Integer (0 for false, 1 for true)
-```
+
+- NULL null value
+- INTEGER Integer value
+- REAL 8-byte floating point number
+- TEXT Text with UTF encoding
+- BLOB Blob-Data (stored like input)
+- BOOLEAN Will be stored as Integer (0 for false, 1 for true)
+
 
 ## Constraints
-```
-PRIMARY KEY Sets column as primary key. The constraints NOT NULL and UNIQUE will be set automatically.
-NOT NULL Prevents the column from empty values (null).
-UNIQUE Each value in the column has to be unique.
-INTEGER PRIMARY KEYs will automatically become the ROWID and therefore will be automatically incremented. This column can be accessed as ROWID, OID, _ROWID_ or the column name.
-```
+
+- PRIMARY KEY Sets column as primary key. The constraints NOT NULL and UNIQUE will be set automatically.
+- NOT NULL Prevents the column from empty values (null).
+- UNIQUE Each value in the column has to be unique.
+- INTEGER PRIMARY KEYs will automatically become the ROWID and therefore will be automatically incremented. This column can be accessed as ROWID, OID, _ROWID_ or the column name.
+
 
 
 
